@@ -23,3 +23,4 @@ coloredlogs==15.0.1
 docutils<=0.21; python_version == '3.8'
 docutils>=0.21.2; python_version > '3.8'
 
+urllib3>=2.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
